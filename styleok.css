@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@600&family=Play&display=swap");
+
+body{
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background: linear-gradient(66.52deg, #a09f9f 49.16%, #06011f 49.29%);
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 45px;
+  }
+  
+
+#intro-hi {
+    font-family: calibri;
+    font-weight: bold;
+    color: #636060;
+    font-size: 32px;
+    margin: 0px;
+  }
+  
+#intro {
+    font-family: calibri;
+    font-weight: bold;
+    color: #b97d44;
+    font-size: 50px;
+    margin: 0px;
+  }
+
+  
+#intro-banner {
+    font-family: myriad pro regular;
+    color: #5f2323;
+    font-size: 35px;
+    margin: 0px;
+  }
+
+#list {
+    font-family: myriad pro regular;
+    color: #bd6148;
+    font-size: 20px;
+    margin: 0px;
+}  
+
+#sss {
+    right: 20px;
+    margin: auto;
+}
+
+.social {
+    position: fixed;
+    top: 10%;
+    right: 0px;
+    font-size: 20px;
+    color: #2b2b2b;
+}
+
+#about img {
+    height: 250px;
+  }
+  .about-text {
+    width: 600px;
+    font-size: 1rem;
+  }
+  .about-text p:nth-child(1) {
+    color: black;
+    font-family: "Baloo Tammudu 2", cursive;
+  
+    font-size: 2.2rem;
+    line-height: 0px;
+  }
+
+  #contact {
+    margin: auto;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #bfbcc0;
+  }
+
+  .cont {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 101%;
+    position: relative;
+    top: -30px;
+}
+
+
+  .ctk {
+    font-size: 1.4rem;
+  }
+    
