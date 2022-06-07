@@ -4,11 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styleok.css"> -->
+    <!-- <link rel="stylesheet" href="bg-vanta.css"> -->
     <title>Project</title>
 </head>
 <body>
-    Work in progress
-    <img src=""
+    <main>
+        <div id="vanta-canvas">
+          <div class="main-content">
+            <span class="appdev">oops work in progress</span>
+            <span class="webdev">Web Developer | Open Source Enthusiast</span>
+          </div>
+        </div>
+      </main>
+    
 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+      <script>
+		VANTA.WAVES({
+		  el: "#vanta-canvas",
+		  mouseControls: true,
+		  touchControls: true,
+		  gyroControls: true,
+		  minHeight:  930.00,
+		  minWidth: 100.00,
+		  scale: 1.00,
+		  scaleMobile: 1.00,
+		  color: 0x427f,
+		  shininess: 44.00,
+		  waveHeight: 32.00,
+		  waveSpeed: 1.05,
+		  zoom: 1.23,
+		});
+	</script>
+    
+  <script src="/__/firebase/8.2.5/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="/__/firebase/8.2.5/firebase-analytics.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
 </body>
 </html>
